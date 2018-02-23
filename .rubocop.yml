@@ -1,0 +1,42 @@
+# Use UTF-8 as the source file encoding.
+Encoding:
+  Enabled: true
+
+# Limit lines to 80 characters.
+LineLength:
+  Enabled: false
+
+# Avoid methods longer than 10 lines of code
+MethodLength:
+  Enabled: false
+
+# Favor modifier if/unless usage when you have a single-line body.
+IfUnlessModifier:
+  Enabled: false
+
+# Favor modifier while/until usage when you have a single-line body.
+WhileUntilModifier:
+  Enabled: false
+
+# Preferred collection methods.
+CollectionMethods:
+  Enabled: false
+
+# Don't interpolate global, instance and class variables directly in strings.
+VariableInterpolation:
+  Enabled: false
+
+# 日本語入力はOK
+AsciiComments:
+  Enabled: false
+
+# ハッシュの最終行のカンマを許容
+TrailingCommaInLiteral:
+  Enabled: false
+
+# クラスの説明を端折る
+Documentation:
+  Enabled: false
+
+SpecialGlobalVars:
+  Enabled: false
